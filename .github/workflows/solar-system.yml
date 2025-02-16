@@ -28,7 +28,6 @@ jobs:
           run: npm install
     
         - name: Unit Testing
-          id: Unit-testing-unique
           run: npm test
           
         - name: Archive Test Result
